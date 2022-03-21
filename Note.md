@@ -45,3 +45,9 @@ go get github.com/lib/pq
 https://github.com/stretchr/testify
 go get github.com/stretchr/testify
 ```
+
+### run test
+
+```
+go test -v ./...
+```
