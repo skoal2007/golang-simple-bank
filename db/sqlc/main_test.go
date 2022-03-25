@@ -4,8 +4,9 @@ import (
 	"database/sql"
 	"log"
 	"os"
-	"simplebank/util"
 	"testing"
+
+	"github.com/skoal2007/golang-simple-bank/util"
 
 	_ "github.com/lib/pq"
 )
