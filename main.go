@@ -3,9 +3,10 @@ package main
 import (
 	"database/sql"
 	"log"
-	"simplebank/api"
-	db "simplebank/db/sqlc"
-	"simplebank/util"
+
+	"github.com/skoal2007/golang-simple-bank/api"
+	db "github.com/skoal2007/golang-simple-bank/db/sqlc"
+	"github.com/skoal2007/golang-simple-bank/util"
 
 	_ "github.com/lib/pq"
 )
