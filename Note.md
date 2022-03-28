@@ -10,9 +10,21 @@ docker start postgres12
 list all container (running or stop)
 docker ps -a
 
+### migrate command
+
+```
 migrate create -ext sql -dir db/migration -seq init_schema
 /Users/heyee/golang_postgreSQL_kubernetes/simplebank/db/migration/000001_init_schema.up.sql
 /Users/heyee/golang_postgreSQL_kubernetes/simplebank/db/migration/000001_init_schema.down.sql
+```
+
+### add users table
+
+```
+migrate create -ext sql -dir db/migration -seq add_users
+/Users/heyee/golang_postgreSQL_kubernetes/simplebank/db/migration/000002_add_users.up.sql
+/Users/heyee/golang_postgreSQL_kubernetes/simplebank/db/migration/000002_add_users.down.sql
+```
 
 ```
 docker exec -it postgres12 /bin/sh
