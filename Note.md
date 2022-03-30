@@ -63,3 +63,9 @@ go get github.com/stretchr/testify
 ```
 go test -v ./...
 ```
+
+### clean test cache
+
+```
+go clean -testcache
+```
