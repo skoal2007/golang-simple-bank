@@ -69,3 +69,9 @@ go test -v ./...
 ```
 go clean -testcache
 ```
+
+### install(update) package ?
+
+```
+go mod tidy
+```
