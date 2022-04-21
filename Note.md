@@ -75,3 +75,9 @@ go clean -testcache
 ```
 go mod tidy
 ```
+
+
+### build docker image
+```
+docker build -t simplebank:latest .
+```
