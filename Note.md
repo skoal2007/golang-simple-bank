@@ -132,3 +132,14 @@ docker run --name simplebank --network bank-network -p 8080:8080 -e GIN_MODE=rel
 
 docker network inspect bank-network
 ```
+
+### Run docker compose
+
+```
+docker-compose up
+docker images
+docker ps
+docker network inspect simplebank_default
+
+docker-compose up --build
+```
